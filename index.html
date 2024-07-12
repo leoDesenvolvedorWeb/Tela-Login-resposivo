@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela login</title>
-    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="/index.css">
+
 </head>
 <body>
     <div class="page">
@@ -17,7 +18,7 @@
             <<span class="blue">.DEV</span><span class="big"></span>>
           </div>
         </div>
-        <h3>Acesse sua conta</h3>
+        <h3 class="nome">Acesse sua conta</h3>
       </div>
       <!-- FORMULARIO -->
       <form method="post" action="" class="form">
@@ -36,12 +37,30 @@
           <a href="#">Perdeu a senha?</a> 
         </div>
         <input type="submit" name="login" value="Login" class="btn btn-login">
-        <a href="#" class="btn btn-registrar">Cadastre-se</a>
+        <a href="./src/componentes/Telacadastro/Telacadastro.html" class="btn btn-registrar">Cadastre-se</a>
       </form>
+      <!-- SEPARADOR -->
+       <div class="separator">
+        <span class="separator-text">OU</span>
+      </div>
+      <!-- SOCIAL -->
+       <div class="socmed-login">
+        <a href="#facebook" class="btn btn-face">
+          <i class="fab fa-facebook-f btn-icone"></i>
+          <span class="xs-hidden">Login com Facebook</span>
+          <span class="xs-show">Facebook</span>
+        </a>
+        <a href="#g-plus" class="btn btn-google">
+        <i class="fab fa-google btn-icone"></i>
+        <span class="xs-hidden">Login com Google</span>
+        <span class="xs-show">Google</span>
+      </a>
+      </div>
     </div>
     <p class="attrib">&copy; 2024 Leo Dev</p>
   </div>
 </div>
+
 
 <!-- Font Awesome -->
 <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>

@@ -3,8 +3,12 @@ body {
 	font-size: 14px;
 	margin: 0;
 	padding: 0;
-  background-color: #dcdcdc;
+  background: #dcdcdc;
+  /* background-image: url('../img/31625.jpg');
+  background-size: cover; /* Faz a imagem cobrir todo o elemento */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); Altere os valores conforme necessário */
 }
+
 .page {
   display: flex;
   align-items: center;
@@ -23,7 +27,7 @@ body {
 
 /* BACKGROUND */
 .background, .backdrop {
-	background-color: #3f689c;
+	background-color: #9e9e9e;
 	position: fixed;
   top: 0;
   left: 0;
@@ -50,14 +54,14 @@ body {
 }
 /* logo */
 .formulario .header .logo {
-	border: 1px solid #CCC;
+	border: 1px solid #9e9e9e;
   border-radius: 50%;
   margin: 0 auto;
   width: 87px;
   height: 87px;
 }
 .formulario .header .logo .logo-area {
-	border: 1px solid #CCC;
+	border: 1px solid #9e9e9e;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -68,13 +72,13 @@ body {
 }
 /* fonte */
 .formulario .header .logo .logo-area {
-  background: #F2F2F2;
+  background: #CCCCCC;
   color: #0D0D0D;
   font-size: 14px;
   font-weight: bold;
 }
 .formulario .header .logo .blue { 
-  color: #1e6fb8; 
+  color: #0d009c; 
 }
 
 /* INPUT */
@@ -88,6 +92,7 @@ body {
 	border-bottom: 1px solid #CCCCCC;
   margin-top: 15px;
   font-size: 20px;
+	border: 1px solid #9e9e9e;
   color: #9e9e9e;
 	padding-bottom: 5px;
 }
@@ -129,23 +134,23 @@ body {
 	outline: none;
 }
 .formulario .btn-login {
-  background: #2f7fd6;
+  background: #0d009c;
   color: #FFFFFF;
 	margin-top: 15px;
   width: 100%;
   height: 40px;
 }
 .formulario .btn-login:hover {
-	background: #1e6fb8;
+	background: #0D0D0D;
 }
 .formulario .btn-registrar {
-  background: #dbdbdb;
-  color: #676464;
+  background: #0d009c;
+  color: #ffffff;
   text-decoration: none;
 	margin-top: 5px;
 }
 .formulario .btn-registrar:hover	{
-	background: #cdcdcd;
+	background: #0D0D0D;
 }
 
 /* SEPARADOR */
@@ -173,7 +178,7 @@ body {
   text-align: left;
 }
 .formulario .btn-face:hover {
-	background: #324b80;
+	background: #0D0D0D;
 }
 .formulario .btn-google {
 	background: #ef0a0a;
@@ -183,7 +188,7 @@ body {
   text-align: left;
 }
 .formulario .btn-google:hover {
-	background: #d40909;
+	background: #0D0D0D;
 }
 .formulario .btn-icone {
   border-right: 1px solid #FFFFFF;
